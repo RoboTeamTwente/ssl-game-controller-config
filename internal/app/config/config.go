@@ -196,7 +196,7 @@ func DefaultControllerConfig() (c Controller) {
 	c.Game.BallPlacementTolerance = 0.15
 	c.Game.BallPlacementMinRobotDistance = 0.05
 	c.Game.DistanceToBallInStop = 0.5
-	c.Game.AutoApproveGoals = false
+	c.Game.AutoApproveGoals = true
 	c.Game.SuggestEndOfMatch = true
 	c.Game.RecommendHalfTimes = true
 	c.Game.ChallengeFlags = 3
